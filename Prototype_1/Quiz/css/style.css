@@ -1,0 +1,100 @@
+  body {
+    /* background-image: url('../img/backg.jpg'); */
+    font-family: Roboto;
+  }
+
+  @media screen and (max-width: 768px) {
+      h1{
+          font-size:30px;
+      }
+
+      h2{
+          font-size:20px;
+      }
+
+      .push {
+        width: 100%;
+      }
+  }
+
+  #vragenCont {
+    background-color: #ebffe9cc;
+    border: 1px solid;
+    padding: 2%;
+  }
+
+  #vragenCont h2{
+    margin-top: 0px;
+  }
+
+  #results {
+    background-color: #ebffe9cc;
+    border: 1px solid;
+    padding: 2%;
+  }
+
+  button {
+    background-color: #B0D00F;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #bt1, #bt2, #bt3, #bt4, #bt5, #bt6, #bt7, #bt8, #bt9, #bt10, #bt11, #bt12, #bt13, #bt14, #bt15, #bt16 {
+    cursor: pointer;
+  }
+
+  #q1, #q2, #q3, #q4, #re {
+    -webkit-appearance: none;
+  }
+
+  .caption-success {
+      width: inherit;
+      bottom: 0.0rem;
+      position: absolute;
+      background: #000;
+      background: -webkit-linear-gradient(bottom, #28a745 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+      background: -moz-linear-gradient(bottom, #28a745 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+      background: -o-linear-gradient(bottom, #28a745 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+      background: linear-gradient(to top, #28a745 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  }
+
+  .caption-primary {
+      width: inherit;
+      bottom: 0.0rem;
+      position: absolute;
+      background: #000;
+      background: -webkit-linear-gradient(bottom, #007bff 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+      background: -moz-linear-gradient(bottom, #007bff 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+      background: -o-linear-gradient(bottom, #007bff 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+      background: linear-gradient(to top, #007bff 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  }
+
+  .caption-primary h4, .caption-success h4 {
+      color: #fff;
+      -webkit-font-smoothing: antialiased;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      padding-left: 60px;
+      padding-right: 60px;
+  }
+
+  .thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin:0;
+    padding:0;
+}
+
+.scoreBoard {
+  background-color: #fbf9a0b3;
+  border: 1px solid black;
+  padding: 1%;
+}
+
+  .push {
+    margin-top: 2%;
+  }
